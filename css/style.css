@@ -1,0 +1,50 @@
+body {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+
+.navigation {
+    font-size: 14px;
+    list-style: none;
+}
+
+.navigation a {
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 24px;
+
+}
+
+ul a:hover {
+color: blue;
+}
+ 
+.text {
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.block {
+    list-style: none;
+
+}
+
+.block h3 {
+    font-size:30px;
+    line-height: 36px;
+    
+}
+
+p {
+   font-size:14px;
+   line-height:24px;
+
+}
+button {
+    font-size:20px;
+    line-height: 24px;
+}
+
+ 
