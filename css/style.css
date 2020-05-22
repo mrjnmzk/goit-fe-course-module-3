@@ -24,6 +24,7 @@ header {
     margin: 0 auto;
     width: 573px;
     text-align: center;
+    font-size: 0;
    }
 
 .navigation li {
@@ -43,17 +44,35 @@ ul a:focus {
 color: blue;
 }
 
-.list-item{
+.lifestyle {
+    margin-left: 0;
+    margin-right: 120px;
+}
+
+.photodiary {
+    margin-right: 103px;
+}
+
+.travel {
+    margin-left: 90px;
+    margin-right: 0;
+}
+
+.list-item {
     width: 420px;
     height: 480px;
     overflow: hidden;
     display: inline-block;
-    margin-right: 56px;
+    margin-right: 60px;
     margin-bottom: 132px;
 }
 
 .list-item:nth-child(2n) {
     margin-right: 0;
+}
+
+.list-item:nth-child(n + 5) {
+    margin-bottom: 0;
 }
 
 h3 {
@@ -72,7 +91,10 @@ h3 {
 .container {
     margin: 0 auto;
     width: 900px;
+    font-size: 0;
 }
+
+
 
 .block {
     list-style: none;
@@ -85,8 +107,16 @@ h3 {
     line-height: 36px;
 }
 
+.block ul {
+    font-size: 0;
+}
+
 p {
    font-size:14px;
+}
+
+section {
+    margin-bottom: 54px;
 }
 
 button {
@@ -102,13 +132,13 @@ button {
     background-color: #ffffff;
     cursor: pointer;
     margin-bottom: 69px;
-    margin-top: -78px;
+    margin-top: 0px;
     
 }
 
 form {
         width: 170px;
-    margin:0 auto;
+        margin:0 auto;
 }
 
  
